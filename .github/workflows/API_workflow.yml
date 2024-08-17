@@ -1,0 +1,17 @@
+name: API Token Test Workflow
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Use API Token to access repository contents
+      run: |
+        echo "Fetching repository contents using API Token..."
+        curl -H "Authorization: token ${{ secrets.API_TOKEN }}" https://api.github.com/repos/Ymabushy/Literature-5th-grade-school/contents/
+        echo "Done."
