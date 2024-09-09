@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">132</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">f08dfd49-c67a-46ce-ab78-049f072a4052</dc:identifier>
+        <dc:title>Звезда, которая никогда не заходит</dc:title>
+        <dc:creator opf:file-as="Рубер, Александр" opf:role="aut">Александр Рубер</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (7.16.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>rus</dc:language>
+        <dc:subject>Мир Полудня</dc:subject>
+        <meta name="calibre:series" content="Библиотека приключений и научной фантастики"/>
+        <meta name="calibre:series_index" content="6"/>
+        <meta name="calibre:timestamp" content="2024-08-10T08:38:41+00:00"/>
+        <meta name="calibre:title_sort" content="Звезда, которая никогда не заходит"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Обложка" href="cover.jpg"/>
+    </guide>
+</package>
